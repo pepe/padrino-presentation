@@ -1,0 +1,9 @@
+{
+  "name": "Padrino",
+  "description": "The Elegant Ruby Web Framework",
+  "sections": [
+    {"section":"title"},
+    {"section":"something-more"},
+    {"section":"padrino"}
+  ]
+}
