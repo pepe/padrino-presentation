@@ -6,4 +6,4 @@
 !SLIDE
 
 ## ... a něco navíc
-### showoff, rvm, bundler, mongomatic a tak
+### showoff, rvm, bundler a tak

@@ -4,6 +4,7 @@
   "sections": [
     {"section":"title"},
     {"section":"something-more"},
-    {"section":"padrino"}
+    {"section":"padrino"},
+    {"section":"demo"}
   ]
 }

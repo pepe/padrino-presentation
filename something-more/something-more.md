@@ -25,12 +25,3 @@
 * také vyšla 1.0
 * velmi dobře kombinovatelné s rvm
 * stavá se základní výbavou Rubysty
-
-!SLIDE bullets incremental
-# mongomatic
-
-* následuje mongo idiomy
-* kde možno používá čisté mongo
-* co nejméně závislostí
-* je v posledním Padrinu
-* http://github.com/benmyles/mongomatic
