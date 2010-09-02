@@ -35,7 +35,7 @@
 !SLIDE command
 
 ## komponenty
-# padrino g controller blog
+# padrino g controller posts
 # padrino g model post
 ## VISOR TIME!
 
@@ -62,10 +62,20 @@
 # padrino rake seed
 ## VISOR TIME!
 
+!SLIDE code
+
+## app/models/post.rb
+    @@@Ruby
+
+    property :title, String
+    property :content, String
+    property :posted_on, DateTime
+
+## VIM TIME!
+    
 !SLIDE command
 
 ## scaff
-# mvim app/models/post.rb
 # padrino g admin_page post
 # padrino start
 ## VISOR TIME!
@@ -89,9 +99,9 @@
     @@@Ruby
     %h1 My posts
 
-      %ul
-        -@posts.each do |post|
-          %li= post.title
+    %ul
+      -@posts.each do |post|
+        %li= post.title
 
 ## VIM TIME!
 
